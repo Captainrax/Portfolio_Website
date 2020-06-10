@@ -12,19 +12,19 @@ body{
 }
 
 .box{
-    border-style: solid;
+    /* border-style: solid;
     border-width: 10px;
-    border-radius: 10px;
-    border-image: url("../images/DialogFrameCorners.PNG") 12 repeat; 
+    border-radius: 10px; */
 }
-#navbar {
+#navbar { /* div element */
     position: fixed;
     margin: 0px -10px;
     top: 0;
-    width: 60vw;
-    height: 24px;
+    width: 60.8vw;
+    height: 30px;
     color: white;
-    background-color: rgb(26, 26, 26);
+    border: rgba(60, 60, 60, 1) 3px solid;
+    border-radius: 4px;
 }
 .navbar {
     position: fixed;
@@ -41,25 +41,29 @@ body{
     display: block;
     color: white;
     text-align: center;
-    padding: 13px 20px;
+    margin: 0px 4px 0px 0px;
+    padding: 6px 6px;
     text-decoration: none;
+    background-color: rgb(40, 40, 40);
+    border: solid 2px rgba(0, 110, 200, 0.4);
+    border-radius: 4px;
 }
 #mainbody {
     font-size: 20px;
     color: white;
     border: none;
+    background-color: rgb(37, 37, 37);
 }
 
 .panel{
     margin: 50px 30px;
     padding: 0px;
     height: 10vw;
-    background-color: rgba(114, 114, 114, 0.1);
+    background-color: rgba(56, 56, 56, 0.5);
     
-    border-style: solid;
-    border-width: 10px;
-    border-radius: 10px;
-    border-image: url("../images/DialogFrameCorners.PNG") 12 repeat; 
+    border: rgba(0,110,200,0.4) solid;
+    border-width: 2px;
+    border-radius: 4px;
 }
 .Headertext {
     margin: 0px 10px;

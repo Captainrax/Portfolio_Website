@@ -12,21 +12,21 @@
 }
 
 .box{
-    border-style: solid;
+    /* border-style: solid;
     border-width: 10px;
-    border-radius: 10px;
-    border-image: url("../images/DialogFrameCorners.PNG") 12 repeat; 
+    border-radius: 10px; */
 }
-#navbar {
+#navbar { /* div element */
     position: fixed;
     margin: 0px -10px;
     top: 0;
-    width: 60vw;
-    height: 24px;
+    width: 60.8vw;
+    height: 30px;
     color: white;
-    background-color: rgb(26, 26, 26);
+    border: rgba(60, 60, 60, 1) 3px solid;
+    border-radius: 4px;
 }
-.navbar {
+.navbar { /* ul element */
     position: fixed;
     top: 0;
     width: 100%;
@@ -34,15 +34,19 @@
     margin: 0;
     padding: 0;
   }
-.navbar li {
+.navbar li { /* all li elements */
     float:left;
 }
 .navbar li a{
     display: block;
     color: white;
     text-align: center;
-    padding: 13px 20px;
+    margin: 0px 4px 0px 0px;
+    padding: 6px 6px;
     text-decoration: none;
+    background-color: rgb(40, 40, 40);
+    border: solid 2px rgba(0, 110, 200, 0.4);
+    border-radius: 4px;
 }
 #mainbody {
     font-size: 20px;
@@ -57,10 +61,9 @@
     height: 10vw;
     background-color: rgba(56, 56, 56, 0.5);
     
-    border-style: solid;
-    border-width: 10px;
-    border-radius: 10px;
-    border-image: url("../images/DialogFrameCorners.PNG") 12 repeat; 
+    border: rgba(0,110,200,0.4) solid;
+    border-width: 2px;
+    border-radius: 4px;
 }
 .Headertext {
     margin: 0px 10px;
@@ -69,24 +72,14 @@
     color: rgb(185, 185, 185);
 }
 
-#placeholder4 {
-    padding: 40px;
-    background-image: url("../StyleSheets/images/fellas.jpg");
-    background-repeat: no-repeat;
-    background-size: auto;
-
-}
-#ph4 {
-    position: fixed;
-}
-
 p {
     margin: 24px 10px;
 }
 
 footer {
 
-    padding: 10px;
+    position: center;
+    margin: 0px 20vw;
     background-color: rgba(56, 56, 56, 0.5);
     color: aquamarine;
     
