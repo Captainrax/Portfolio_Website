@@ -1,0 +1,102 @@
+﻿body{
+    position: center;
+    margin: 0px 20vw;
+    background-color: rgb(41, 41, 41)
+}
+
+.wrapper{
+    display:grid;
+    
+    width: 60vw;
+    grid-gap: 1em;
+}
+
+.box{
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 10px;
+    border-image: url("../images/DialogFrameCorners.PNG") 12 repeat; 
+}
+#navbar {
+    position: fixed;
+    margin: 0px -10px;
+    top: 0;
+    width: 60vw;
+    height: 24px;
+    color: white;
+    background-color: rgb(26, 26, 26);
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+.navbar li {
+    float:left;
+}
+.navbar li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 13px 20px;
+    text-decoration: none;
+}
+#mainbody {
+    font-size: 20px;
+    color: white;
+    border: none;
+    background-color: rgb(37, 37, 37);
+}
+
+.panel{
+    margin: 50px 30px;
+    padding: 0px;
+    height: 10vw;
+    background-color: rgba(56, 56, 56, 0.5);
+    
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 10px;
+    border-image: url("../images/DialogFrameCorners.PNG") 12 repeat; 
+}
+.Headertext {
+    margin: 0px 10px;
+    font-size: 30px;
+    font-family: morpheus;
+    color: rgb(185, 185, 185);
+}
+
+#placeholder4 {
+    padding: 40px;
+    background-image: url("../StyleSheets/images/fellas.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+
+}
+#ph4 {
+    position: fixed;
+}
+
+p {
+    margin: 24px 10px;
+}
+
+footer {
+
+    padding: 10px;
+    background-color: rgba(56, 56, 56, 0.5);
+    color: aquamarine;
+    
+}
+@font-face {
+    font-family:"morpheus";
+    src: url("MORPHEUS.woff") format("woff"),
+         url("MORPHEUS.TTF") format("truetype");
+  }
+
+html {
+    background-color: rgb(32, 32, 32);
+}
