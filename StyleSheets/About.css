@@ -16,38 +16,6 @@ body{
     border-width: 10px;
     border-radius: 10px; 
 } */
-#navbar { /* div element */
-    position: fixed;
-    margin: 0px -10px;
-    top: 0;
-    width: 60.8vw;
-    height: 30px;
-    color: white;
-    border: rgba(60, 60, 60, 1) 3px solid;
-    border-radius: 4px;
-}
-.navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-.navbar li {
-    float:left;
-}
-.navbar li a{
-    display: block;
-    color: white;
-    text-align: center;
-    margin: 0px 4px 0px 0px;
-    padding: 6px 6px;
-    text-decoration: none;
-    background-color: rgb(40, 40, 40);
-    border: solid 2px rgba(0, 110, 200, 0.4);
-    border-radius: 4px;
-}
 #mainbody {
     font-size: 20px;
     color: white;
@@ -58,7 +26,8 @@ body{
 .panel{
     margin: 50px 30px;
     padding: 0px;
-    height: 10vw;
+    height: auto;
+    max-width: 57vw;
     background-color: rgba(56, 56, 56, 0.5);
     
     border: rgba(0,110,200,0.4) solid;
@@ -71,14 +40,18 @@ body{
     font-family: morpheus;
     color: rgb(185, 185, 185);
 }
+.linktext{
+    color: cyan;
+}
 p {
-    margin: 12px 10px;
+    margin: 10px 10px;
 }
 
 @font-face {
     font-family:"morpheus";
-    src: url("MORPHEUS.woff") format("woff"),
-         url("MORPHEUS.TTF") format("truetype");
+    src: 
+    /* url("MORPHEUS.woff") format("woff"), */
+    url("MORPHEUS.TTF") format("truetype");
 }
 html {
     background-color: rgb(32, 32, 32);
