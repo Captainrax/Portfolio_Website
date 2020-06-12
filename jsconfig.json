@@ -4,5 +4,11 @@
             "jquery"
         ]
     }
-
+    // ,
+    // "compilerOptions": {
+    //     "module": "commonjs",
+    //     "target": "es6"
+    // },
+    // "include": ["scripts/Libraries/azure-storage.table.js"]
+      
 }
