@@ -54,10 +54,18 @@
 .panel_content img {
     transition:transform 0.25s ease;
 }
-.panel_content img:hover {
-    -webkit-transform:scale(2); /* backup */
+#panel_content_img_upscale{
+    -webkit-transform:scale(2);  
     transform:scale(2);
 }
+#panel_content_img_normalscale{
+    -webkit-transform:scale(1);  
+    transform:scale(1);
+}
+/* .panel_content img:hover {
+    -webkit-transform:scale(2);  
+    transform:scale(2);
+} */
 .panel_content_text{
     
     display: grid;
