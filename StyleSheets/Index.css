@@ -75,8 +75,11 @@
 .Headertext {
     margin: 4px 10px;
     font-size: 30px;
-    font-family: morpheus;
     color: rgb(185, 185, 185);
+}
+#eve_panel{
+    /* font-family: evesans; */
+    /* considering using custom fonts if i decide to make each project their own pages */
 }
 .linktext{
     color: cyan;
@@ -92,10 +95,12 @@ footer {
 }
 @font-face {
     font-family:"morpheus";
-    src: 
-    /* url("MORPHEUS.woff") format("woff"), */
-    url("MORPHEUS.TTF") format("truetype");
-  }
+    src: url("MORPHEUS.TTF") format("truetype");
+}
+@font-face {
+    font-family:"evesans";
+    src: url("evesansneue-regular.ttf") format("truetype");
+}
 
 html {
     background-color: rgb(32, 32, 32);

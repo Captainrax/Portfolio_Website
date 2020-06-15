@@ -1,32 +1,37 @@
 #navbar { /* div element */
     position: fixed;
-    margin: 0px -10px;
     top: 0;
-    width: 60.8vw;
-    height: 30px;
+    left: 0vw;
+    margin: 0px -10px;
+    width: 100vw;
+    height: 34px;
     color: white;
-    border: rgba(60, 60, 60, 1) 3px solid;
-    border-radius: 4px;
+    background-color: rgba(60, 60, 60, 1);
+    /* border: rgba(60, 60, 60, 1) 3px solid;
+    border-radius: 4px; */
 }
 .navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
     list-style-type: none;
-    margin: 0;
+    margin: 0px 0px 0px 20vw;
     padding: 0;
   }
 .navbar li {
     float:left;
+    /* background-color: rgb(40, 40, 40); */
+    /* border: solid 2px rgba(0, 110, 200, 0.4);
+    border-radius: 4px; */
+    margin: 0px 20px 0px 0px;
+    padding: 7px 6px;
 }
 .navbar li a{
     display: block;
     color: white;
     text-align: center;
-    margin: 0px 4px 0px 0px;
-    padding: 6px 6px;
     text-decoration: none;
-    background-color: rgb(40, 40, 40);
-    border: solid 2px rgba(0, 110, 200, 0.4);
-    border-radius: 4px;
+}
+.navbar li a:hover{
+    border-bottom: solid cyan 2px;
+    
+    display: inline-block;
+    line-height: 20px;
 }

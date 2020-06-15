@@ -1,3 +1,4 @@
+// loads navbar.js
 $(document).ready(function () {
      MakeNavBar(); 
 });
