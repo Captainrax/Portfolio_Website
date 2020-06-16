@@ -1,16 +1,22 @@
 // loads navbar.js
 $(document).ready(function () {
+    // loads navbar function from NavBar.js
      MakeNavBar(); 
      
     // important that this is inside .ready function, since images are from azure
     // upscales / downscales images on click
     $(".panel_content_image").click(function() {
         if($(this).attr("id") == "panel_content_img_upscale"){
-            $(this).attr("id", "panel_content_img_normalscale").css("z-index", 1);
+            $(this)
+            .attr("id", "panel_content_img_normalscale")
+            .css("z-index", 1);
         } else {
-            $(this).attr("id", "panel_content_img_upscale").css("z-index", 2);
+            $(this)
+            .attr("id", "panel_content_img_upscale")
+            .css("z-index", 2);
         }
     });
+
 });
 
 

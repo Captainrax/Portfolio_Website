@@ -1,25 +1,21 @@
 #navbar { /* div element */
+    z-index: 3;
     position: fixed;
     top: 0;
     left: 0vw;
-    margin: 0px -10px;
+    margin: 0px 0px;
     width: 100vw;
     height: 34px;
     color: white;
     background-color: rgba(60, 60, 60, 1);
-    /* border: rgba(60, 60, 60, 1) 3px solid;
-    border-radius: 4px; */
 }
 .navbar {
     list-style-type: none;
     margin: 0px 0px 0px 20vw;
     padding: 0;
-  }
+}
 .navbar li {
     float:left;
-    /* background-color: rgb(40, 40, 40); */
-    /* border: solid 2px rgba(0, 110, 200, 0.4);
-    border-radius: 4px; */
     margin: 0px 20px 0px 0px;
     padding: 7px 6px;
 }
@@ -35,3 +31,18 @@
     display: inline-block;
     line-height: 20px;
 }
+
+/* 
+animation-duration: 0.4s;
+animation-name: slidein;
+@keyframes slidein {
+    from {
+      margin-top: -0.5%;
+      height: 3.5%; 
+    }
+  
+    to {
+      margin-right: 0%;
+      height: 34px;
+    }
+} */

@@ -1,3 +1,15 @@
+html {
+    background-color: rgb(32, 32, 32);
+
+    background-image: linear-gradient(rgba(241, 241, 241, 0.02) 1px, transparent 0%),
+      linear-gradient(90deg, rgba(241, 241, 241, 0.02) 1px, transparent 0%),
+      linear-gradient(rgba(0, 255, 255, 0.02) 1px, transparent 1%),
+      linear-gradient(90deg, rgba(0, 255, 255, 0.02) 1px, transparent 1%);
+      
+    background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px; /* changes "size" of squares */
+
+    scrollbar-color: rgb(50, 50, 50) rgb(32, 32, 32);
+}
 body{
     position: center;
     margin: 0px 20vw;
@@ -52,7 +64,4 @@ p {
     src: 
     /* url("MORPHEUS.woff") format("woff"), */
     url("MORPHEUS.TTF") format("truetype");
-}
-html {
-    background-color: rgb(32, 32, 32);
 }

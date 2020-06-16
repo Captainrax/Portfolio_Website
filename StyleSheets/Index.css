@@ -1,12 +1,21 @@
-﻿body{
+﻿html {
+    background-color: rgb(32, 32, 32);
+
+    background-image: linear-gradient(rgba(241, 241, 241, 0.02) 1px, transparent 0%),
+      linear-gradient(90deg, rgba(241, 241, 241, 0.02) 1px, transparent 0%),
+      linear-gradient(rgba(0, 255, 255, 0.02) 1px, transparent 1%),
+      linear-gradient(90deg, rgba(0, 255, 255, 0.02) 1px, transparent 1%);
+      
+    background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px; /* changes "size" of squares */
+
+    scrollbar-color: rgb(50, 50, 50) rgb(32, 32, 32);
+}
+body{
     position: center;
     margin: 0px 20vw;
-    background-color: rgb(41, 41, 41)
 }
-
 .wrapper{
     display:grid;
-    
     width: 60vw;
     grid-gap: 1em;
 }
@@ -108,8 +117,4 @@ footer {
 @font-face {
     font-family:"evesans";
     src: url("evesansneue-regular.ttf") format("truetype");
-}
-
-html {
-    background-color: rgb(32, 32, 32);
 }
