@@ -3,7 +3,7 @@
     <div class="panel">
         <h4 class="Headertext">{{ content.header }}</h4>
         <div class="panel_content">
-          <img class="panel_content_image" :src= "content.image" alt="">
+          <img class="panel_content_image" :src= "content.image" alt=""> <!-- replace this with a component lightbox -->
           <div class="panel_content_text">
             <span id="panel_description">{{ content.description }}</span>
             <div class="panel_content_details">
@@ -18,6 +18,8 @@
 </template>
 
 <script>
+// implement lightbox for images
+// https://www.youtube.com/watch?v=LOUKZrmFtgM
 export default {
   props: {
     content: Object

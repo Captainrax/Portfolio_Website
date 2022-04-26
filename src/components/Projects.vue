@@ -55,8 +55,6 @@ import ProjectTemplate from './ProjectTemplate.vue'
  
 import json from "../offline_ignore/projects.json";
 
-// https://www.youtube.com/watch?v=LOUKZrmFtgM
-
 export default {
   name: 'Projects',
   props: {
