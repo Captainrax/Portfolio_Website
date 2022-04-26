@@ -10,7 +10,7 @@
           <p><a class="linktext" href="https://captainrax.github.io/" target="_blank">CaptainRax.Github.io</a></p>
         </div>
       </div>
-          
+
   </div>
   
   <div class="tab_wrapper">
@@ -55,14 +55,16 @@ import ProjectTemplate from './ProjectTemplate.vue'
  
 import json from "../offline_ignore/projects.json";
 
+// https://www.youtube.com/watch?v=LOUKZrmFtgM
+
 export default {
   name: 'Projects',
   props: {
   },
   components:{
     Tab,
-    Tabs
-    ,ProjectTemplate
+    Tabs,
+    ProjectTemplate
   },
   data () {
     return {

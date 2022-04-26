@@ -6,13 +6,12 @@
 
       <div class="panel" id="box1">
         <h4 class="Headertext">About Me</h4>
-        <p>Student at Techcollege Aalborg in Denmark.</p>
-        <p>Studing as a Data Technician that specialises in programming.</p>
+        <p>Mostly self taught, had a try at a programming education at TECHCOLLEGE, Aalborg in Denmark.</p>
         <p>Name: Andreas Østgård Larsen</p>
-        <p>Age: 23 Years old</p>
-        <p>Internship: Looking for an Internship position as a programmer.</p>
+        <p>Age: 25 Years old</p>
+        <p>Job: Looking for a position as a programmer.</p>
 
-        <p>PDF cv: <a class="linktext" href="pdf/CV-1.pdf" target="_Blank"> CV </a></p>
+        <p>CV: <a class="linktext" href="pdf/CV-1.pdf" target="_Blank"> link </a></p>
           
       </div>
 

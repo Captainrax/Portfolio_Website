@@ -1,62 +1,62 @@
 {
-    "projects_js": [
-        {
-            "header":"Web app: Custom Wow Item Tooltips",
-            "image":"https://andreasportfolio.blob.core.windows.net/project-pictures/Custom_Wow_Items.PNG",
-            "description":"Custom World of Warcraft item tooltips",
-            "link":"#",
-            "platform":"Platform: Web Browser",
-            "created":"Created with: Javascript"
-        },
-        {
-            "header":"Web app: Eve Online Tech Tree",
-            "image":"https://andreasportfolio.blob.core.windows.net/project-pictures/EVE_Ship_Tree.png",
-            "description":"Recreation of the Ship Tech Tree in the browser from the game EVE online",
-            "link":"https://github.com/Captainrax/EVE_Ship_Tech_Tree",
-            "platform":"Platform: Web Browser",
-            "created":"Created with: Javascript"
-        }
-    ],
-    "projects_csharp": [
-        {   
-            "header":"Web app + Web Api",
-            "image":"https://andreasportfolio.blob.core.windows.net/project-pictures/Contoso_WebApi.png",
-            "description":"Completed Contoso Universety tutorial from microsoft. The Contoso Frontend Uses the Web-Api as Backend. Additionally implemented Repository Pattern and automapper on the Web-Api. ",
-            "link":"#",
-            "platform":"Platform: Web Browser",
-            "created":"Created with: C#"
-        },
-        {
-            "header":"Console: SQL CRUD App",
-            "image":"https://andreasportfolio.blob.core.windows.net/project-pictures/CMD_SQL.gif",
-            "description":"Simple SQL CRUD Console App. Using an SQL Database From Microsft SQL Management Studio.",
-            "link":"#",
-            "platform":"Platform: Any",
-            "created":"Created with: C#"
-        },
-        {
-            "header":"WPF: XML Transformation",
-            "image":"https://andreasportfolio.blob.core.windows.net/project-pictures/XML_Transformations_WPF.jpg",
-            "description":"WPF desktop App for XSD verification and XSLT Transformations, also allows for easy viewing and editing of XML files via DataGrid(WPF).",
-            "link":"#",
-            "platform":"Platform: Windows 10",
-            "created":"Created with: C#"
-        },
-        {
-            "header":"WPF: Pizzaria",
-            "image":"https://andreasportfolio.blob.core.windows.net/project-pictures/Pizzaria_WPF.png",
-            "description":"Pizzaria menu/ordering app",
-            "link":"https://github.com/Captainrax/SKP_Projects/tree/master/Project_Ideer/Uge_14_Pizzeria",
-            "platform":"Platform: Windows 10",
-            "created":"Created with: C#"
-        },
-        {
-            "header":"Console/WPF Apps",
-            "image":"https://andreasportfolio.blob.core.windows.net/project-pictures/Console_WPF_Backgroundworker.png",
-            "description":"Console app and wpf app that both use backgroundworkers to read/write from the same file, thus being able to edit/remove/add from both apps in real time. backgroundworkers run on threads.",
-            "link":"#",
-            "platform":"platform: windows 10 / .net",
-            "created":"csharp"
-        }
-    ]
+  "projects_js": [
+    {
+      "header": "Web app: Custom Wow Item Tooltips",
+      "image": "https://andreasportfolio.blob.core.windows.net/project-pictures/Custom_Wow_Items.PNG",
+      "description": "Custom World of Warcraft item tooltips. Made as an exercise in CSS and JS.",
+      "link": "#",
+      "platform": "Platform: Web Browser",
+      "created": "Made in: Javascript"
+    },
+    {
+      "header": "Web app: Eve Online Tech Tree",
+      "image": "https://andreasportfolio.blob.core.windows.net/project-pictures/EVE_Ship_Tree.png",
+      "description": "Recreation of the Ship Tech Tree in the browser from the game EVE online. Made as an exercise in HTML, CSS and JS.",
+      "link": "https://github.com/Captainrax/EVE_Ship_Tech_Tree",
+      "platform": "Platform: Web Browser",
+      "created": "Made in: Javascript"
+    }
+  ],
+  "projects_csharp": [
+    {
+      "header": "Web app + Web Api",
+      "image": "https://andreasportfolio.blob.core.windows.net/project-pictures/Contoso_WebApi.png",
+      "description": "Completed Contoso Universety tutorial from microsoft. Additionally implemented Repository Pattern and automapper in the Web-Api.",
+      "link": "#",
+      "platform": "Platform: Web Browser",
+      "created": "Made in: C#"
+    },
+    {
+      "header": "Console: SQL CRUD App",
+      "image": "https://andreasportfolio.blob.core.windows.net/project-pictures/CMD_SQL.gif",
+      "description": "Simple SQL CRUD Console App. Using an SQL Database From Microsft SQL Management Studio.",
+      "link": "#",
+      "platform": "Platform: Any",
+      "created": "Made in: C#"
+    },
+    {
+      "header": "WPF: XML Transformation",
+      "image": "https://andreasportfolio.blob.core.windows.net/project-pictures/XML_Transformations_WPF.jpg",
+      "description": "WPF desktop App for XSD verification and XSLT Transformations, also allows for easy viewing and editing of XML files via DataGrid(WPF).",
+      "link": "#",
+      "platform": "Platform: Windows 10",
+      "created": "Made in: C#"
+    },
+    {
+      "header": "WPF: Pizzaria",
+      "image": "https://andreasportfolio.blob.core.windows.net/project-pictures/Pizzaria_WPF.png",
+      "description": "Pizzaria menu/ordering app",
+      "link": "https://github.com/Captainrax/SKP_Projects/tree/master/Project_Ideer/Uge_14_Pizzeria",
+      "platform": "Platform: Windows 10",
+      "created": "Made in: C#"
+    },
+    {
+      "header": "Console/WPF Apps",
+      "image": "https://andreasportfolio.blob.core.windows.net/project-pictures/Console_WPF_Backgroundworker.png",
+      "description": "Console app and wpf app that both use backgroundworkers to read/write from the same file, thus being able to edit/remove/add from both apps in real time. backgroundworkers run on threads.",
+      "link": "#",
+      "platform": "Platform: Windows 10",
+      "created": "Made in: C#"
+    }
+  ]
 }
