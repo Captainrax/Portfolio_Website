@@ -1,24 +1,35 @@
-html {
-    background-color: rgb(32, 32, 32);
+<template>
+ <div class="wrapper">
 
-    background-image: linear-gradient(rgba(241, 241, 241, 0.02) 1px, transparent 0%),
-      linear-gradient(90deg, rgba(241, 241, 241, 0.02) 1px, transparent 0%),
-      linear-gradient(rgba(0, 255, 255, 0.02) 1px, transparent 1%),
-      linear-gradient(90deg, rgba(0, 255, 255, 0.02) 1px, transparent 1%);
-      
-    background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px; /* changes "size" of squares */
+    <div class="box" id="mainbody">
 
-    scrollbar-color: rgb(50, 50, 50) rgb(32, 32, 32);
+      <div class="panel" id="box1">
+        <h4 class="Headertext">Contact</h4>
+        <p>Email: Recon1145@gmail.com</p>
+      </div>
+
+        
+    </div>
+
+</div>
+</template>
+
+<script>
+export default {
+  name: 'Contact',
+  props: {
+  }
 }
-body{
-    position: center;
-    margin: 0px 20vw;
-    background-color: rgb(41, 41, 41)
-}
+</script>
 
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
 .wrapper{
     display:grid;
     
+    position: center;
+    margin: 0px 20vw;
+    background-color: rgb(41, 41, 41);
     width: 60vw;
     grid-gap: 1em;
 }
@@ -59,5 +70,6 @@ p {
     font-family:"morpheus";
     src: 
     /* url("MORPHEUS.woff") format("woff"), */
-    url("MORPHEUS.TTF") format("truetype");
+    url("/MORPHEUS.TTF") format("truetype");
 }
+</style>

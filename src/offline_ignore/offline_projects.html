@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>test</title>
+    
+    <script src="../libraries/jquery-3.5.1.js"></script>
+    <script src="create_json_projects.js"></script>
+    <link rel="stylesheet" href="offline_projects.css">
+  </head>
+
+  <body>
+        <div class="wrapper">
+
+            <div class="tab_wrapper">
+        
+                <div class="box" id="mainbody">
+                  
+                    <div class="panel">
+                        <input class="input_header" placeholder="Header">
+                        <div class="panel_content">
+                            <input class="input_image" placeholder="image url" alt="">
+                            <div class="panel_content_text">
+                                <span class="input_description" role="textbox" contenteditable="">description</span>
+                                <div class="panel_content_details">
+                                    <input class="input_link" placeholder="github link">
+                                    <input class="input_platform" placeholder="Platform">
+                                    <input class="input_created" placeholder="Javascript/C#">
+                                </div>
+                            </div>
+                        </div>
+                        <button id="create_button">Create</button>
+                    </div>
+
+                    <div class="panel">
+                        <h4 class="Headertext" id="template_header">Test format</h4>
+                        <div class="panel_content">
+                        <img class="panel_content_image" src="https://andreasportfolio.blob.core.windows.net/project-pictures/CMD_SQL.gif" alt="">
+                        <div class="panel_content_text">
+                            <p id="project_description">Recreation of the Ship Tech Tree in the browser from the game EVE online</p>
+                            <div class="panel_content_details">
+                            <p>Github: <a class="linktext" href="" target="_blank">Link</a></p>
+                            <p class="text_platform">Platform: Web Browser</p>
+                            <p class="text_created_with">Created with: Javascript/Jquery</p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="panel" id="json_panel">
+                        <h4 class="Headertext">JSON</h4>
+                        <div class="panel_content">
+                            <code id="json_object">json code</code>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+  </body>
+</html>

@@ -1,0 +1,115 @@
+html {
+  background-color: rgb(32, 32, 32);
+
+  background-image: linear-gradient(rgba(241, 241, 241, 0.02) 1px, transparent 0%),
+    linear-gradient(90deg, rgba(241, 241, 241, 0.02) 1px, transparent 0%),
+    linear-gradient(rgba(0, 255, 255, 0.02) 1px, transparent 1%),
+    linear-gradient(90deg, rgba(0, 255, 255, 0.02) 1px, transparent 1%);
+        
+  background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px; /* changes "size" of squares */
+
+  scrollbar-color: rgb(50, 50, 50) rgb(32, 32, 32);
+}
+.wrapper{
+    position: center;
+    margin: 0px 5vw;
+    display:grid;
+    width: 90vw;
+}
+#mainbody {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 20px;
+    color: white;
+    border: none;
+    background-color: rgb(37, 37, 37);
+}
+.panel{
+    margin: 20px 20px; /* panel gap */
+    padding: 0px;
+    height: auto;
+    max-width: 90vw;
+    background-color: rgba(56, 56, 56, 0.5);
+    border: rgba(0,110,200,0.4) solid;
+    border-width: 2px;
+    border-radius: 4px;
+}
+.panel_content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+    margin: 4px;
+    padding: 0px;
+}
+.panel_content_image{
+    object-fit: contain;
+    overflow: hidden;
+    width: 100%;
+    max-height: 260px;
+}
+.panel_content_text{ 
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows:  10fr auto;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.panel_content_text p{
+    float: left;
+    overflow: hidden;
+    word-wrap: break-word;
+    margin: 0px;
+}
+.panel_content_details{
+    display: grid;
+    align-content: center;
+    margin-top: 10px;
+}
+#json_panel .panel_content{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+    margin: 4px;
+    padding: 0px;
+}
+#json_panel{
+    max-width: 45vw;
+}
+#json_object{
+    float: left;
+    overflow: hidden;
+    word-wrap: break-word;
+    margin: 20px;
+}
+.Headertext {
+    margin: 4px 10px;
+    font-size: 30px;
+    color: rgb(185, 185, 185);
+}
+.linktext{
+    color: cyan;
+}
+.tab_wrapper {
+    padding: 10px;
+}
+
+.input_header{
+    margin: 4px 10px;
+    font-size: 30px;
+    color: rgb(131, 131, 131);
+    width: 25vw;
+}
+.input_image{
+    height: 30px;
+}
+.input_description{
+    color: black;
+    background-color: white;
+    float: left;
+    overflow: hidden;
+    word-wrap: break-word;
+    margin: 0px;
+    height: 12vh;
+}
