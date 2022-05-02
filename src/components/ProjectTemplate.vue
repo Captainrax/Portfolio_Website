@@ -3,7 +3,7 @@
     <div class="panel">
         <h4 class="Headertext">{{ content.header }}</h4>
         <div class="panel_content">
-          <img class="panel_content_image" :src= "content.image" alt=""> <!-- replace this with a component lightbox -->
+          <Lightbox :thumbnail="content.image[0]" :images="content.image"/>
           <div class="panel_content_text">
             <span id="panel_description">{{ content.description }}</span>
             <div class="panel_content_details">
@@ -20,14 +20,14 @@
 <script>
 // implement lightbox for images
 // https://www.youtube.com/watch?v=LOUKZrmFtgM
+import Lightbox from "./Lightbox.vue"
+
 export default {
   props: {
     content: Object
   },
-  data () {
-    return {
-      
-    }
+  components: {
+    Lightbox
   },
   created(){
     // console.log(this.content);
@@ -36,7 +36,7 @@ export default {
 </script>
 
 <style lang="css">
-  .panel{
+.panel{
   margin: 20px 20px; /* panel gap */
   padding: 0px;
   height: auto;
@@ -48,7 +48,7 @@ export default {
 }
 .panel_content{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
   grid-template-rows: 1fr;
   grid-gap: 10px;
   margin: 4px;
@@ -88,21 +88,6 @@ export default {
   display: grid;
   align-content: center;
   margin-top: 10px;
-}
-#toppanel_content{
-  align-content: center;
-  overflow: hidden;
-  word-wrap: break-word;
-  text-align: center;
-  margin: 0px;
-}
-#headerpanels{
-  text-align: center;
-  margin: 0px;
-}
-#info_panel{ /* top panel */
-  grid-column-start: 1;
-  grid-column-end: 3;
 }
 .Headertext {
   margin: 4px 10px;
